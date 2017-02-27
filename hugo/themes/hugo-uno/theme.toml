@@ -14,3 +14,7 @@ features = ["blog", ]
     author =  "daleanthony"
     homepage = "http://daleanthony.com/"
     repo = "https://github.com/daleanthony/Uno"
+
+[params]
+  description = "Сайт только открылся, но тут будет что-то интересное!"
+  author = "Косячок & Ругач"
