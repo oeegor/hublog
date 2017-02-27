@@ -33,7 +33,6 @@ COPY hugo $APP_ROOT
 
 RUN chmod 644 /etc/logrotate.d/* \
     && mkdir -p /var/log/nginx \
-    && chown -R $APP_USER. $APP_ROOT /var/log/nginx \
+    && chown -R $APP_USER. $APP_ROOT /var/log/nginx $APP_ROOT \
     && nginx -t \
-    && ls && hugo \
-    && chown -R $APP_USER. $APP_ROOT
+    && ls && hugo

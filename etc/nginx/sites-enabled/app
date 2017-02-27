@@ -32,6 +32,6 @@ server {
     access_log /var/log/nginx/access.log app;
 
     location / {
-        root            /home/ubuntu/hublog/public;
+        root /home/ubuntu/hublog/public/;
     }
 }
