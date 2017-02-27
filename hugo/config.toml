@@ -2,3 +2,7 @@ languageCode = "en-us"
 title = "Косячок & Ругач"
 baseURL = ""
 theme = "hugo-uno"
+
+[params]
+    description = "Сайт только открылся, но тут будет что-то интересное!"
+    author = "Косячок & Ругач"
