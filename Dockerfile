@@ -35,4 +35,5 @@ RUN chmod 644 /etc/logrotate.d/* \
     && mkdir -p /var/log/nginx \
     && chown -R $APP_USER. $APP_ROOT /var/log/nginx \
     && nginx -t \
-    && ls && hugo
+    && ls && hugo \
+    && chown -R $APP_USER. $APP_ROOT
