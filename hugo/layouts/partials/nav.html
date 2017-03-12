@@ -10,7 +10,7 @@
 	{{ end }}
 
 	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}post/about'>Все записи</a>
+		<a href='{{ .Site.BaseURL }}post/about/'>О нас</a>
 	{{ end }}
 
 	{{ range $key, $val := .Site.Params.Links }}
