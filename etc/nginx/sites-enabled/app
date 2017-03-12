@@ -29,7 +29,7 @@ log_format app '{'
 server {
 
     listen 80;
-    server_name косячок-и-ругач.рф
+    server_name косячок-и-ругач.рф;
     access_log /var/log/nginx/access.log app;
 
     location / {
