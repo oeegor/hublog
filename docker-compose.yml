@@ -1,4 +1,4 @@
 hublog:
   build: .
   ports:
-    - "80:8080"
+    - "80:80"
