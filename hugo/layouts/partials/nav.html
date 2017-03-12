@@ -6,11 +6,11 @@
 	{{ end }}
 
 	{{ if ne $url "post/" }}
-		<a href='{{ .Site.BaseURL }}post'>Все записи</a>
+		<a href='{{ .Site.BaseURL }}'>Все записи</a>
 	{{ end }}
 
 	{{ if ne $url "about/" }}
-		<a href='{{ .Site.BaseURL }}post/about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+		<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
 	{{ end }}
 
 	{{ range $key, $val := .Site.Params.Links }}
