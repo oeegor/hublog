@@ -6,11 +6,32 @@ body {
     sans-serif;
 }
 
+.post {
+    margin: 0;
+}
+
 .profile {
     padding: 20px 0;
+}
+
+.profile #wrapper {
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 
 .profile #header {
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.post h2.headline {
+    margin-bottom: 0;
+}
+
+.tags a {
+    color: #aaa;
+}
+
+blockquote {
+    align
 }

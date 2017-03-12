@@ -3,7 +3,7 @@ defaultContentLanguage = "ru"
 title = "Косячок & Ругач"
 baseURL = ""
 theme = "hugo-theme-cactus-plus"
-googleAnalytics = "your_google_analytics_code"
+googleAnalytics = "UA-93556615-1"
 
 [params]
     description = "Сайт только открылся, но тут будет что-то интересное!"
