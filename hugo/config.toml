@@ -6,7 +6,7 @@ theme = "hugo-theme-cactus-plus"
 googleAnalytics = "UA-93556615-1"
 
 [params]
-    description = "Сайт только открылся, но тут будет что-то интересное!"
+    description = "Блог о путешествиях и не только."
     author = "Косячок и Ругач"
 
     name = "Косячок и Ругач"
