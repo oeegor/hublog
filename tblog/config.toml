@@ -1,0 +1,26 @@
+languageCode = "ru-ru"
+defaultContentLanguage = "ru"
+title = "Косячок & Ругач"
+baseURL = "http://косячок-и-ругач.рф/"
+theme = "ananke"
+#googleAnalytics = "UA-93556615-1"
+
+#[params]
+    #description = "Блог о путешествиях и не только."
+    #author = "Косячок и Ругач"
+
+    #name = "Косячок и Ругач"
+    #bio = "Блог о путешествиях и не только"
+
+    #enableRSS = false
+    3enableGithubIssuesTips = false
+
+    # Use description as title in single page, posts page and tags page.
+    #useDescriptionAsTitle = false
+
+    # Enable googleAnalytics
+    #enableGoogleAnalytics = true
+
+    # Add custom assets with their paths relative to the static folder
+    #customCSS = ["css/custom.css"]
+    #customJS  = []
