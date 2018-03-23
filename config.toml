@@ -1,7 +1,7 @@
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
-title = "Косячок & Ругач"
-baseURL = "http://косячок-и-ругач.рф/"
+title = "Blog"
+baseURL = "/"
 theme = "ananke"
 #googleAnalytics = "UA-93556615-1"
 
