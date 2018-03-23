@@ -3,9 +3,7 @@ title = "Отзыв об отеле Tiara Festa Beach Cottages Morjim"
 Categories = ["Индия","Отели","Моржим"]
 Tags = ["Индия","Отели", "Моржим"]
 Description = ""
-menu = "main"
 date = "2017-03-11T11:09:34+05:30"
-
 +++
 
 > А я уеду жить в Моржим!
