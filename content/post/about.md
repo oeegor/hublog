@@ -1,5 +1,5 @@
 +++
-title = "О Косячке и Ругаче"
+title = "О блоге"
 date = "2017-03-12T20:33:15+03:00"
 description = ""
 hidden = true
