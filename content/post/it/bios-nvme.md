@@ -24,6 +24,7 @@ sudo mount -B /proc /nvme_root/proc
 sudo mount -B /dev /nvme_root/dev
 sudo mount -B /sys /nvme_root/sys
 ```
+
 8. chroot /nvme_root
 9. Замаунтить раздели из отформатированной флешки с шага (4) в /boot.
 10. Поправить /etc/fstab, чтобы /boot имел корректный uuid.
@@ -31,7 +32,7 @@ sudo mount -B /sys /nvme_root/sys
 12. Пересобрать `initramfs`: `mkinitcpio -p linux`
 13. Сделать `grub-install --target=i386-pc --boot-directory /boot /dev/sdX`
 14. И последнее: `grub-mkconfig -o /boot/grub/grub.cfg`
-15. Готово.
+15. Готово!
 
 У меня был затык в шаге 11, я не знал почему `grub2` не может загрузить ядро с рутом на nvme.
 
