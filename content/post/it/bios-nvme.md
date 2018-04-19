@@ -19,11 +19,11 @@ draft: false
 6. Замаунтинтить / из nvme в какую-нибудь директорию
 7. Подготовить окружение для chroot:
 
-```
-sudo mount -B /proc /nvme_root/proc
-sudo mount -B /dev /nvme_root/dev
-sudo mount -B /sys /nvme_root/sys
-```
+    ```
+    sudo mount -B /proc /nvme_root/proc
+    sudo mount -B /dev /nvme_root/dev
+    sudo mount -B /sys /nvme_root/sys
+    ```
 
 8. chroot /nvme_root
 9. Замаунтить раздели из отформатированной флешки с шага (4) в /boot.
